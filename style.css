@@ -1,4 +1,58 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+h1{
+    color:green;
+    font-size: 40px;
+}
 
+button{
+    background-color: aliceblue;
+    border-color: black;
+    border-radius: 5px;
+}
 
+.container{
+    width: 60%;
+    height: 75%;
+    display: flex;
+    background-color: white;
+    border-radius: 5%;
+    align-items: center ;
+    flex-direction: column;
+    overflow: auto;
+}
+ .inputContainer , .outputContainer{
+     width: 80%;
+     margin: auto;
+ }
+ .inputContainer > div , .outputContainer > div{
+     margin: auto;
+     padding: 0.5% 20% ;
+     display: flex;
+     align-items: center;
+     /* justify-content: center; */
+ }
+.inputContainer > div > span {
+    width: 50%;
+    align-items: left;
+}
+.inputContainer > div > div{
+    display: flex;
+}
+
+.outputContainer{
+    display: none;
+}
+
+.highlight{
+    background-color: yellow;
+}
+
+.footer{
+    margin: auto;
+}
